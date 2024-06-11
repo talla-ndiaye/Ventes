@@ -1,0 +1,29 @@
+/*============================================ 
+# Template Name: Lottery Pro
+# Version: 1.0
+# Date: 04/12/2022
+# Author: softivus
+# Author URI: https://www.templatemonster.com/authors/softivus
+# Description: Lottery - HTML Template
+============================================*/
+ 
+/*============================================ 
+======== Table of Css Content =========
+# Typography
+# Normalize 
+# Global style
+# Header Area
+# Banner Area
+# Section Area
+# Footer Area
+============================================*/
+
+// Sass Global
+@import "main/_global.scss";
+
+// Pages
+@import "pages/_banner-footer.scss";
+@import "pages/_section.scss";
+
+// Responsive Area
+@import "main/_responsive.scss";

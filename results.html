@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lottery - HTML Template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="assets/images/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="assets/css/plugin/nice-select.css">
+    <link rel="stylesheet" href="assets/css/plugin/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/plugin/slick.css">
+    <link rel="stylesheet" href="assets/css/arafat-font.css">
+    <link rel="stylesheet" href="assets/css/plugin/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <!--
+        start preloader
+    <div class="preloader align-items-center justify-content-center">
+        <div class="load">
+            <hr/><hr/><hr/><hr/>
+        </div>
+    </div>
+    end preloader
+     -->
+    <!-- Scroll To Top Start-->
+    <a href="javascript:void(0)" class="scrollToTop"><i class="fas fa-angle-double-up"></i></a>
+    <!-- Scroll To Top End -->
+
+    <!-- header-section start -->
+    <header class="header-section">
+        <div class="overlay">
+            <div class="container">
+                <div class="row d-flex header-area">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a href="index.html" class="navbar-brand d-flex align-items-center gap-2">
+                            <img src="assets/images/fav.png" class="fav" alt="fav">
+                            <img src="assets/images/logo.png" class="logo" alt="logo">
+                        </a>
+                        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbar-content">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbar-content">
+                            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link " href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="lotteries.html">Lotto</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About Us</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="results.html">Results</a>
+                                </li>
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="right-area d-flex gap-3 gap-xl-5 align-items-center">
+                                <div class="switch-wrapper d-flex gap-2 align-items-center">
+                                    <i class="icon-g-sun sun"></i>
+                                    <label class="switch">
+                                        <input type="checkbox" id="checkbox" class="checkbox">
+                                        <span class="slider"></span>
+                                    </label>
+                                    <i class="icon-h-moon moon"></i>
+                                </div>
+                                <div class="btn-area">
+                                    <a href="javascript:void(0)" class="cmn-btn">
+                                        Login
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-section end -->
+
+    <section class="banner-section inner-banner section-bg about dark-ui">
+        <div class="banner-content position-relative d-flex align-items-center">
+            <div class="container">
+                <div class="row d-flex justify-content-start">
+                    <div class="col-lg-6">
+                        <div class="text-area">
+                            <h2>Results</h2>
+                            <div class="breadcrumb-area">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb d-flex">
+                                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Results</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="illus-area position-absolute bottom-0">
+                            <img src="assets/images/results-bg-illus.png" class="wow fadeInUp" alt="icon" style="visibility: visible; animation-name: fadeInUp;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="recent-lottery-results results section-bg dark-ui">
+        <div class="overlay pt-120 pb-120">
+            <div class="shape-area">
+                <img src="assets/images/ball-bg-icon-1.png" class="shape-1" alt="Image">
+                <img src="assets/images/ball-bg-icon-2.png" class="shape-2" alt="Image">
+                <img src="assets/images/ball-bg-icon-4.png" class="shape-3" alt="Image">
+                <img src="assets/images/ball-bg-icon-4.png" class="shape-4" alt="Image">
+                <img src="assets/images/ball-bg-icon-4.png" class="shape-5" alt="Image">
+            </div>
+            <div class="container wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-sm-8">
+                        <div class="section-header text-center">
+                            <h2 class="title">Recent Lottery Results</h2>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-1.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Richard william</span> has won 2 minutes ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li><span>8</span></li>
+                                            <li><span>9</span></li>
+                                            <li><span>10</span></li>
+                                            <li class="numActive"><span>11</span></li>
+                                            <li><span>12</span></li>
+                                            <li><span>13</span></li>
+                                            <li><span>92</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-2.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Jane Cooper</span> has won 55 minutes ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li><span>6</span></li>
+                                            <li><span>9</span></li>
+                                            <li><span>17</span></li>
+                                            <li><span>11</span></li>
+                                            <li><span>18</span></li>
+                                            <li class="numActive"><span>13</span></li>
+                                            <li><span>49</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-3.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Kathryn Murphy</span> has won 1 hours ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li><span>9</span></li>
+                                            <li class="numActive"><span>12</span></li>
+                                            <li><span>12</span></li>
+                                            <li><span>13</span></li>
+                                            <li><span>59</span></li>
+                                            <li><span>60</span></li>
+                                            <li><span>2</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-4.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Guy Hawkins</span> has won 4 hours ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li class="numActive"><span>8</span></li>
+                                            <li><span>9</span></li>
+                                            <li><span>10</span></li>
+                                            <li><span>11</span></li>
+                                            <li><span>12</span></li>
+                                            <li><span>13</span></li>
+                                            <li><span>1</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-5.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Glenn Philips</span> has won 2 minutes ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li><span>8</span></li>
+                                            <li><span>9</span></li>
+                                            <li><span>10</span></li>
+                                            <li class="numActive"><span>11</span></li>
+                                            <li><span>12</span></li>
+                                            <li><span>13</span></li>
+                                            <li><span>92</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-6.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Alen Donald</span> has won 55 minutes ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li><span>6</span></li>
+                                            <li><span>9</span></li>
+                                            <li><span>17</span></li>
+                                            <li><span>11</span></li>
+                                            <li><span>18</span></li>
+                                            <li class="numActive"><span>13</span></li>
+                                            <li><span>49</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-7.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Quentle D`Kock</span> has won 1 hours ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li><span>9</span></li>
+                                            <li class="numActive"><span>12</span></li>
+                                            <li><span>12</span></li>
+                                            <li><span>13</span></li>
+                                            <li><span>59</span></li>
+                                            <li><span>60</span></li>
+                                            <li><span>2</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="single-box">
+                            <div class="img-area">
+                                <img src="assets/images/lottery-img-8.png" alt="image">
+                            </div>
+                            <div class="text-area">
+                                <p class="lgtxt"><span class="lgtxt">Deve Mille</span> has won 4 hours ago.</p>
+                                <span class="price">Amount : <span>$32.010</span></span>
+                                <p>Draw took place on : <span>20/05/2022</span></p>
+                                <div class="lucky-number">
+                                    <div class="tab-content m-0">
+                                        <ul class="justify-content-start">
+                                            <li class="numActive"><span>8</span></li>
+                                            <li><span>9</span></li>
+                                            <li><span>10</span></li>
+                                            <li><span>11</span></li>
+                                            <li><span>12</span></li>
+                                            <li><span>13</span></li>
+                                            <li><span>1</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <nav aria-label="Page navigation" class="d-flex justify-content-center align-items-center pagination-area mt-2">
+                            <a class="page-btn cmn-btn alt previous" href="javascript:void(0)" aria-label="Previous">
+                                <i class="icon-a-arrow-double"></i>
+                            </a>
+                            <a class="page-btn prev-next previous" href="javascript:void(0)" aria-label="Previous">
+                                Prev
+                            </a>
+                            <ul class="pagination justify-content-center align-items-center">
+                                <li class="page-item"><a class="cmn-btn alt" href="javascript:void(0)">1</a></li>
+                                <li class="page-item"><a class="cmn-btn alt active" href="javascript:void(0)">2</a></li>
+                                <li class="page-item"><a class="cmn-btn alt" href="javascript:void(0)">3</a></li>
+                            </ul>
+                            <a class="page-btn prev-next next" href="javascript:void(0)" aria-label="Next">
+                                Next
+                            </a>
+                            <a class="page-btn cmn-btn alt next" href="javascript:void(0)" aria-label="Next">
+                                <i class="icon-a-arrow-double"></i>
+                            </a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- Ticket Checker start -->
+     <section class="ticket-checker">
+        <div class="overlay position-relative pt-120 pb-120">
+            <div class="shape-area">
+                <img src="assets/images/ball-bg-icon-2.png" class="shape-1" alt="Image">
+                <img src="assets/images/ball-bg-icon-2.png" class="shape-2" alt="Image">
+                <img src="assets/images/ball-bg-icon-2.png" class="shape-3" alt="Image">
+                <img src="assets/images/ball-bg-icon-2.png" class="shape-4" alt="Image">
+                <img src="assets/images/coin.png" class="shape-5" alt="Image">
+                <img src="assets/images/coin.png" class="shape-6" alt="Image">
+                <img src="assets/images/coin.png" class="shape-7" alt="Image">
+            </div>
+            <div class="container wow fadeInUp">
+                <div class="row justify-content-end">
+                    <div class="col-lg-6">
+                        <div class="main-content">
+                            <div class="check-numbers">
+                                <div class="mb-3">
+                                    <h6 class="mb-1">Check My Numbers</h6>
+                                    <p class="mdtxt">Are you holding on to a winning ticket? Here's an easy way to find out.</p>
+                                </div>
+                                <input type="text" placeholder="Enter contest no...">
+                            </div>
+                            <div class="check-numbers mt-4">
+                                <h6 class="mb-1">Enter Your Lottery Numbers</h6>
+                                <div class="lucky-number">
+                                    <div class="tab-content">
+                                        <ul class="justify-content-start">
+                                            <li><span>00</span></li>
+                                            <li><span>00</span></li>
+                                            <li><span>00</span></li>
+                                            <li><span>00</span></li>
+                                            <li><span>00</span></li>
+                                            <li><span>00</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="select-area">
+                                    <select class="niceSelect">
+                                        <option value="0">Select Item</option>
+                                        <option value="1">Last 1 days</option>
+                                        <option value="2">Last 7 days</option>
+                                        <option value="3">Last 15 days</option>
+                                        <option value="4">Last 30 days</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="btn-area mt-4">
+                                <a href="javascript:void(0)" class="cmn-btn">
+                                    Check my number
+                                    <i class="icon-a-arrow-double"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Ticket Checker end -->
+
+      <!-- Footer Area Start -->
+      <footer class="footer-section section-bg">
+        <div class="footer-area">
+            <div class="container">
+                <div class="row wrapper mt-80 mb-80">
+                    <div class="col-xl-12 cus-mar d-flex flex-wrap align-items-center justify-content-between top-area">
+                        <div class="single-box">
+                            <a href="index.html">
+                                <img src="assets/images/logo-alt.png" class="logo" alt="logo">
+                            </a>
+                        </div>
+                        <div class="single-box">
+                            <ul class="items gap-3 d-flex flex-wrap align-items-center">
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="lotteries.html">Lotteries</a></li>
+                                <li><a href="results.html">Results</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="single-box social">
+                            <ul class="d-flex">
+                                <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-dribbble"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="copyright text-center">
+                            <p>Copyright © 2022. All Right Reserved By <a href="javascript:void(0)">Lottery Pro</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Area End -->
+
+
+    <!--==================================================================-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.js"></script>
+    <script src="assets/js/plugin/slick.js"></script>
+    <script src="assets/js/plugin/jquery.nice-select.min.js"></script>
+    <script src="assets/js/plugin/counter.js"></script>
+    <script src="assets/js/plugin/waypoint.min.js"></script>
+    <script src="assets/js/plugin/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/plugin/wow.min.js"></script>
+    <script src="assets/js/plugin/plugin.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+</body>
+
+</html>
